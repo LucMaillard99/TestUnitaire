@@ -1,16 +1,9 @@
-"""
-Gros relou
-"""
+"""Example module demonstrating a simple increment function and its test."""
 
-def func(connard):
-    """
-    prout
-    """
-    return connard + 1
-
+def increment(value):
+    """Increment the given value by 1."""
+    return value + 1
 
 def test_answer():
-   """
-   a chier
-   """
-    assert func(4) == 5
+    """Test if the increment function works as expected."""
+    assert increment(3) == 4
