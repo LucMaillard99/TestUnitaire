@@ -1,9 +1,12 @@
-# content of test_sample.py
-def func(x):
+"""
+Gros relou
+"""
+
+def func(connard):
     """
     prout
     """
-    return x + 1
+    return connard + 1
 
 
 def test_answer():
