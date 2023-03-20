@@ -26,4 +26,4 @@ jobs:
         pylint --disable=C0114,C0116,C0103 $(git ls-files '*.py')
     - name: Run tests with pytest
       run: |
-        pytest test_sample.py 
+        pytest test_sample.py
